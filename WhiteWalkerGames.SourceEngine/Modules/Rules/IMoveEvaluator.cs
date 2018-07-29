@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using WhiteWalkersGames.SourceEngine.Modules.Infrastructure;
+﻿using WhiteWalkersGames.SourceEngine.Modules.Infrastructure;
 
 namespace WhiteWalkersGames.SourceEngine.Modules.Rules
 {
@@ -21,7 +20,7 @@ namespace WhiteWalkersGames.SourceEngine.Modules.Rules
 
         int NextColumn { get; set; }
 
-        List<IMapEntity> RouteMap { get; set; }
+        IMapEntity[,] RouteMap { get; set; }
 
         int CurrentScore { get; set; }
 

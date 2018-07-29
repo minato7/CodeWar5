@@ -64,6 +64,7 @@
     <Compile Include="Modules\Infrastructure\InputConfiguration.cs" />
     <Compile Include="Modules\Infrastructure\MapEntity.cs" />
     <Compile Include="Modules\Rules\IMoveEvaluator.cs" />
+    <Compile Include="Modules\Rules\MoveEvaluator.cs" />
     <Compile Include="Modules\ViewModel\TankBattleViewModel.cs" />
     <Compile Include="Modules\Views\DisplayCanvas.xaml.cs">
       <DependentUpon>DisplayCanvas.xaml</DependentUpon>
